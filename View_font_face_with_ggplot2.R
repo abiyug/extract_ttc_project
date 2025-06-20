@@ -1,3 +1,9 @@
+# View_font_face_with_ggplot2.R
+# Purpose: Append font names to TTFs and render with ggplot2
+# Dependencies: pacman, dplyr, purrr, ggplot2, stringr, systemfonts, showtext
+# Usage: Source or run directly
+# source("View_font_face_with_ggplot2.R") or start R and run from command line
+
 pacman::p_load(dplyr, purrr, ggplot2, stringr, sysfonts,showtext)
 
 source("extract_ttc.R")
