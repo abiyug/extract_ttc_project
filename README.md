@@ -69,8 +69,15 @@ extract_ttc("/System/Library/Fonts/Optima.ttc", verbose = TRUE)
 ```
 
 - Verify the `fonts` directory is created and and *.ttf files are stored
-```{r, eval - FALSE
+```{r, eval - FALSE}
 dir("fonts")
+```
+## View_font_face_with_ggplot2.R Usage
+Visualizes extracted TTF fonts with proper names using `ggplot2`. Requires `pacman`, `dplyr`, `purrr`, `ggplot2`, `stringr`, `systemfonts`, and `showtext`.
+
+```{r, eval = FALSE}
+source("View_font_face_with_ggplot2.R")
+# Run directly or follow script comments for customization
 ```
 
 ## Notes
@@ -78,3 +85,4 @@ dir("fonts")
 -  Tested on macOS; may require adjustments for other OS.
 -  Future work: Add font face-based renaming with unique suffixes to avoid conflicts.
 
+###End of Document
